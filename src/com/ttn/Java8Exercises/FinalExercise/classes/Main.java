@@ -1,6 +1,6 @@
-package com.ttn.Java8Exercises;
+package com.ttn.Java8Exercises.FinalExercise.classes;
 
-import com.ttn.Java8Exercises.FinalExercise.classes.Bootstrap;
+import com.ttn.Java8Exercises.FinalExercise.Bootstrap;
 import com.ttn.Java8Exercises.FinalExercise.classes.Person;
 import com.ttn.Java8Exercises.FinalExercise.enums.Designation;
 import com.ttn.Java8Exercises.FinalExercise.enums.Organization;

@@ -1,9 +1,12 @@
-package com.ttn.Java8Exercises.FinalExercise.classes;
+package com.ttn.Java8Exercises.FinalExercise;
 
+import com.ttn.Java8Exercises.FinalExercise.classes.Address;
+import com.ttn.Java8Exercises.FinalExercise.classes.Person;
 import com.ttn.Java8Exercises.FinalExercise.enums.Designation;
 import com.ttn.Java8Exercises.FinalExercise.enums.Grade;
 import com.ttn.Java8Exercises.FinalExercise.enums.Organization;
 import com.ttn.Java8Exercises.FinalExercise.enums.State;
+import com.ttn.Java8Exercises.StreamExercises.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +40,19 @@ public class Bootstrap {
         personList.add(new Person(111L, "kavita_QA", new Address("abc", "B-345", State.UK), Organization.GOOGLE, Designation.QA, Grade.A, 1000.5F));
         personList.add(new Person(112L, "kavita_QA", new Address("abc", "B-345", State.UP), Organization.SAPIENT, Designation.QA, Grade.A, 10001.5F));
         return personList;
+    }
+
+    public static List<Employee> initEmployee(){
+        List<Employee> employees=new ArrayList<>();
+        employees.add(new Employee("kavita",1000F));
+        employees.add(new Employee("kavita",10090F));
+        employees.add(new Employee("parul",100020F));
+        employees.add(new Employee("parul",10020F));
+        employees.add(new Employee("ajay",1009F));
+        employees.add(new Employee("ajay",1008F));
+        employees.add(new Employee("neha",1400F));
+        employees.add(new Employee("prateesh",109000F));
+        return employees;
     }
 
 }

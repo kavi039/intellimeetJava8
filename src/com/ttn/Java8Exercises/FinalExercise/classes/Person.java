@@ -7,13 +7,13 @@ import com.ttn.Java8Exercises.FinalExercise.enums.Organization;
 import java.util.function.Predicate;
 
 public class Person {
-    Long id;
-    String name;
-    Address address;
-    Organization organization;
-    Designation designation;
-    Grade grade;
-    Float salary;
+    private Long id;
+    private String name;
+    private Address address;
+    private Organization organization;
+    private Designation designation;
+    private Grade grade;
+    private Float salary;
 
     public Person(Long id, String name, Address address, Organization organization, Designation designation, Grade grade, Float salary) {
         this.id = id;

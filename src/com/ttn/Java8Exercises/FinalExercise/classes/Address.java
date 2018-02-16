@@ -4,9 +4,9 @@ import com.ttn.Java8Exercises.FinalExercise.enums.State;
 
 public class Address {
 
-    String street;
-    String hNO;
-    State state;
+    private String street;
+    private String hNO;
+    private State state;
 
     public Address(String street, String hNO, State state) {
         this.street = street;
